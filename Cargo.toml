@@ -1,0 +1,11 @@
+[package]
+name = "work01"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+salvo = "0.63"
+tokio = { version = "1", features = ["full"] }
+rusqlite = { version = "0.29", features = ["bundled"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
